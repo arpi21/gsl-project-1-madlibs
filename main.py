@@ -106,14 +106,3 @@ def template_3():
      now is {verb} on a {adj_5} {noun_5}!!
         '''
 
-funclist = [template_1,template_2,template_3]
-
-choice_number = input("Enter the number of chosen story: ")
-if choice_number == '1':
-    print(template_1())
-elif choice_number == '2':
-    print(template_2())
-elif choice_number == '3':
-    print(template_3())
-else:
-    random.choice(funclist)()
